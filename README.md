@@ -22,6 +22,9 @@ Program sistem kasir self service yang diminta sebagai berikut:
 
 ## Flowchart Program
 
+![Python Project Pacmann_Super Cashier](https://user-images.githubusercontent.com/109641986/218257477-7593a56d-0fa6-4c76-87eb-f1e89b5967a3.jpg)
+
+
 ## Penjelasan Fungsi
 a. Fungsi __init__(self): fungsi yang menginisialisasi dictionary data transaksi
 

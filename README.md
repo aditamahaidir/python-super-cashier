@@ -23,5 +23,30 @@ Program sistem kasir self service yang diminta sebagai berikut:
 ## Flowchart Program
 
 ## Penjelasan Fungsi
+a. Fungsi __init__(self): fungsi yang menginisialisasi dictionary data transaksi
+
+b. Fungsi add_item(self, name_item, amount_item, price_item): fungsi menambahkan item ke data transaksi 
+
+c. Fungsi update_amount_item(self, name_item, new_amount): fungsi untuk memperbarui data jumlah barang di record yang sudah ada
+
+d. Fungsi update_price_item(self, name_item, new_price): fungsi untuk memperbarui data harga satuan barang di record yang sudah ada
+
+e. Fungsi  update_name_item(self, name_item, new_name): fungsi untuk memperbarui data nama barang di record yang sudah ada
+
+f. Fungsi check_data_item(self): Menampilkan daftar transaksi belanja barang beserta diskon dan total akhir pembayaran.
+
+g. Fungsi delete_item(self, name_item): fungsi ini digunakan untuk menghapus item transaksi.
+
+h. Fungsi reset_transaction(self): Fungsi yang digunakan untuk mereset atau menghapus semua data transaksi
+
+i. Fungsi total_discount(self, total_price): Fungsi yang menghitung diskon transaksi
 
 ## Test Case
+![image](https://user-images.githubusercontent.com/109641986/218247787-320a4422-dd82-41f9-81d6-11cd2425c682.png)
+![image](https://user-images.githubusercontent.com/109641986/218247813-9bc69181-fecb-4f3f-a6c2-7afd8228e7ce.png)
+![image](https://user-images.githubusercontent.com/109641986/218247878-5abe2f11-098b-4dd9-907e-3f110a4b5389.png)
+![image](https://user-images.githubusercontent.com/109641986/218247897-8d0e80ff-e1d1-4757-b1c3-3b87d0d45d55.png)
+![image](https://user-images.githubusercontent.com/109641986/218247917-e9ba2899-73ae-448f-b74d-f9dd13d16d60.png)
+![image](https://user-images.githubusercontent.com/109641986/218247933-0880f27a-db5c-4d3d-8660-ac893aaaeb6f.png)
+![image](https://user-images.githubusercontent.com/109641986/218247942-63eca841-0184-4d84-bb6b-be3b73f98634.png)
+
